@@ -35,10 +35,11 @@ function foto() {
     }, 1800);
 }
 
-setInterval(function() {
-    document.getElementById("foto").style.opacity = 0;
-    var timer = setInterval(function() {
-        document.getElementById("foto").src = "Packs/P6.jpg";
-        document.getElementById("foto").style.opacity = 100;
-    }, 1800);
-}, 10000);
+// setInterval(function() {
+//     document.getElementById("foto").style.opacity = 0;
+//     var timer = setInterval(function() {
+//         document.getElementById("foto").src = "Packs/P6.jpg";
+//         document.getElementById("foto").style.opacity = 100;
+//         clearInterval(timer);
+//     }, 2000);
+// }, 10000);
