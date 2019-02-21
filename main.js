@@ -35,7 +35,7 @@ function foto() {
         clearInterval(timer);
         document.getElementById("foto").style.opacity = 100;
 
-    }, 2000);
+    }, 3000);
 }
 
 // setInterval(function() {
