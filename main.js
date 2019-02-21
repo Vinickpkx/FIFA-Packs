@@ -40,6 +40,5 @@ setInterval(function() {
     var timer = setInterval(function() {
         document.getElementById("foto").src = "Packs/P6.jpg";
         document.getElementById("foto").style.opacity = 100;
-        clearInterval(timer);
     }, 1800);
 }, 10000);
