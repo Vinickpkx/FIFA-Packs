@@ -3,7 +3,7 @@ function foto() {
     document.getElementById("foto").style.opacity = 0;
 
     var timer = setInterval(function() {
-        var calculo = Math.floor(Math.random() * 6);
+        var calculo = Math.floor(Math.random() * 10);
         switch (calculo) {
             case 1:
                 document.getElementById("foto").src = "Players/PL1.png";
@@ -27,6 +27,9 @@ function foto() {
 
             case 6:
                 document.getElementById("foto").src = "Players/PL6.png";
+                break;
+            case 7:
+                document.getElementById("foto").src = "Players/PL7.png";
                 break;
         }
         clearInterval(timer);
