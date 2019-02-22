@@ -11,82 +11,13 @@ body {
     align-items: center
 }
 
-.card1 {
-    width: 60%;
-    height: 60%;
-    background-color: rgb(241, 241, 241);
-    background-image: url("../../IMG/lines.png");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-wrap: nowrap;
-    box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card1 .left {
-    width: 60%;
-    height: 100%;
+main {
+    width: 80%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.card1 .left img {
-    width: 85%;
-}
-
-.card1 .left .title {
-    width: 100%;
-    height: 20%;
-}
-
-.card1 .left .title p {
-    margin-left: 20px;
-    font-family: 'Asap', sans-serif;
-    font-size: 28pt;
-    color: #4e4e4e;
-}
-
-.card1 .left .player {
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.card1 .right {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    margin-top: 30px;
-}
-
-.card1 .right a {}
-
-.card1 .right a img {
-    margin-left: 40px;
-    width: 70%;
-}
-
-@media only screen and (max-width: 600px) {
-    .card1 {
-        width: 75%;
-    }
-    .card1 .left {
-        display: none;
-    }
-    .card1 .right {
-        width: 100%;
-        height: 100%;
-        margin-left: 18px;
-    }
-    .card1 .right a img {
-        width: 70%;
-        margin-top: -60px;
-    }
-}
+@media only screen and (max-width: 600px) {}
