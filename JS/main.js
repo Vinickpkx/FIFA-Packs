@@ -3,7 +3,7 @@ function foto() {
     document.getElementById("foto").style.opacity = 0;
 
     var timer = setInterval(function() {
-        var calculo = Math.floor(Math.random() * 10);
+        var calculo = Math.floor(Math.random() * 8);
         switch (calculo) {
             case 1:
                 document.getElementById("foto").src = "Players/PL1.png";
