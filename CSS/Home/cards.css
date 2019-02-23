@@ -78,7 +78,7 @@
     }
     
     .cards .right .right-top .card {
-        background-image: url("../../IMG/lines.png");
+        background-image: url("../../IMG/CardOpen/lines.png");
         background-position: center;
         background-size: 170%;
         display: flex;

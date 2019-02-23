@@ -21,7 +21,9 @@ nav .menu a {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #7a7a7a;
+    color: #3f3f3f;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16pt;
 }
 
 @media only screen and (max-width: 600px) {}
