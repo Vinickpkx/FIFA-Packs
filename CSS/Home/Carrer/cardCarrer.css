@@ -1,5 +1,5 @@
 .cards .left .left-top #card2 {
-    background-image: url("../../IMG/CardCarrer/efect.png");
+    background-image: url("../../../IMG/CardCarrer/efect.png");
     background-position: center;
     background-size: cover;
 }
@@ -28,5 +28,6 @@
 }
 
 .cards .left .left-top #card2 .fotoPlayer IMG {
+    min-width: 100%;
     width: 100%;
 }

@@ -78,7 +78,7 @@
     }
     
     .cards .right .right-top .card {
-        background-image: url("../../IMG/CardOpen/lines.png");
+        background-image: url("../../../IMG/CardOpen/lines.png");
         background-position: center;
         background-size: 170%;
         display: flex;
@@ -100,4 +100,10 @@
     .cards .right .right-top .card IMG {
         width: 75%;
         transition: .5s;
+    }
+    
+    .card .title #marcador {
+        width: 3px;
+        height: 70%;
+        background-color: crimson;
     }

@@ -6,30 +6,30 @@ function foto() {
         var calculo = Math.floor(Math.random() * 8);
         switch (calculo) {
             case 1:
-                document.getElementById("foto").src = "Players/PL1.png";
+                document.getElementById("foto").src = "PLAYERS/PL1.png";
                 break;
 
             case 2:
-                document.getElementById("foto").src = "Players/PL2.png";
+                document.getElementById("foto").src = "PLAYERS/PL2.png";
                 break;
 
             case 3:
-                document.getElementById("foto").src = "Players/PL3.png";
+                document.getElementById("foto").src = "PLAYERS/PL3.png";
                 break;
 
             case 4:
-                document.getElementById("foto").src = "Players/PL4.png";
+                document.getElementById("foto").src = "PLAYERS/PL4.png";
                 break;
 
             case 5:
-                document.getElementById("foto").src = "Players/PL5.png";
+                document.getElementById("foto").src = "PLAYERS/PL5.png";
                 break;
 
             case 6:
-                document.getElementById("foto").src = "Players/PL6.png";
+                document.getElementById("foto").src = "PLAYERS/PL6.png";
                 break;
             case 7:
-                document.getElementById("foto").src = "Players/PL7.png";
+                document.getElementById("foto").src = "PLAYERS/PL7.png";
                 break;
         }
         clearInterval(timer);
