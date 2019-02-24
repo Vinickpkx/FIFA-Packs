@@ -15,7 +15,7 @@ nav .menu {
 nav .menu a {
     width: 25%;
     height: 95%;
-    background-color: rgb(241, 241, 241);
+    background-color: rgba(241, 241, 241, 0.712);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -29,7 +29,8 @@ nav .menu a {
 #home {
     font-weight: bold;
     background-color: rgb(247, 247, 247);
-    border-bottom: solid 2px crimson;
+    border-bottom: solid 2px rgb(196, 1, 131);
+    ;
 }
 
 @media only screen and (max-width: 600px) {}
