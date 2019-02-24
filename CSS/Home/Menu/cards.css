@@ -5,11 +5,12 @@
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
+        margin-top: -15px;
     }
     /* LEFT */
     
     .cards .left {
-        width: 49.5%;
+        width: 50%;
         height: 100%;
     }
     
@@ -22,7 +23,7 @@
     }
     
     .cards .left .left-top .card {
-        width: 48%;
+        width: 48.5%;
         height: 95%;
         background-color: rgb(241, 241, 241);
     }
@@ -37,13 +38,13 @@
     
     .cards .left .left-bot .card {
         width: 98%;
-        height: 95%;
+        height: 99%;
         background-color: rgb(241, 241, 241);
     }
     /* RIGHT */
     
     .cards .right {
-        width: 49.5%;
+        width: 50%;
         height: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -72,8 +73,8 @@
     }
     
     .cards .right .right-bot .card {
-        width: 48%;
-        height: 95%;
+        width: 48.5%;
+        height: 99%;
         background-color: rgb(241, 241, 241);
     }
     

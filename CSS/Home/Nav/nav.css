@@ -4,8 +4,8 @@ nav {
 }
 
 nav .menu {
-    margin-left: 6px;
-    width: 48.7%;
+    margin-left: 4px;
+    width: 49.3%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -23,7 +23,7 @@ nav .menu a {
     text-decoration: none;
     color: #3f3f3f;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     transition: .8s;
     border-bottom: solid 2px transparent;
 }
