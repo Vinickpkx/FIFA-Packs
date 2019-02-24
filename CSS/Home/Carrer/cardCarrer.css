@@ -27,6 +27,11 @@
     align-items: flex-end;
 }
 
+.cards .left .left-top #card2 .fotoPlayer a {
+    display: flex;
+    align-items: flex-end;
+}
+
 .cards .left .left-top #card2 .fotoPlayer IMG {
     min-width: 100%;
     width: 100%;
