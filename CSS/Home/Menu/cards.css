@@ -77,16 +77,6 @@
         height: 99%;
         background-color: rgb(241, 241, 241);
     }
-    
-    .cards .right .right-top .card {
-        background-image: url("../../../IMG/CardOpen/lines.png");
-        background-position: center;
-        background-size: 170%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
     /* OTHER */
     
     .cards .right .right-top .card a {
